@@ -157,8 +157,16 @@ textarea {
 
   .footer-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 50%);
     margin: 0;
+  }
+
+  .member-container ul img {
+    width: 4rem;
+  }
+
+  .reports-container ul img {
+    width: 6rem;
   }
 
   .about-container {
@@ -168,6 +176,10 @@ textarea {
 
   .social-links-list {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .social-links-container ul li img {
+    width: 2rem;
   }
 
   .footer-lead-form {

@@ -29,6 +29,16 @@
   font-size: 20px;
 }
 
+.footer-links a {
+  text-decoration: none;
+  color: #212a31;
+  transition: 0.2s;
+}
+
+.footer-links a:hover {
+  color: black;
+}
+
 .footer-links ul {
   margin: 1rem;
   list-style: none;
@@ -58,6 +68,14 @@
 
 .social-links-list li {
   margin-right: 0.55rem;
+}
+
+.social-links-list li img {
+  transition: 0.2s;
+}
+
+.social-links-list li img:hover {
+  transform: scale(1.05);
 }
 
 .footer-lead-form {
@@ -95,6 +113,7 @@ textarea {
   color: white;
   border: none;
   font-weight: 700;
+  font-size: 20px;
   padding: 1.25rem 0rem;
   border-radius: 0.95rem;
 }

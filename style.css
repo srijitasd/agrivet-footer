@@ -105,6 +105,16 @@ textarea {
   text-align: center;
 }
 
+@media screen and (min-width: 1400px) {
+  .footer-content {
+    grid-gap: 1.5rem;
+  }
+
+  .footer-lead-form {
+    margin: 1rem 3rem;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .footer-inner-container {
     grid-template-columns: 1fr;
